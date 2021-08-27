@@ -1,0 +1,19 @@
+{% extends "dummy.html" %}
+{% block content %}
+<form action="/startprocessing" method="POST">
+  
+  <img src = {{Image}}  alt = "Img"  onclick="getxandy(event)" />
+  <label id = "Imageselected" >Selected :None </label>
+    <input type="submit" class="file btn btn-lg btn-primary" value="Click Here To Proceed" id = "buttonGo">   
+</form>
+
+<script>
+   function getxandy(e){
+       $("#Imageselected").html("<label>Selected  X: <input name ='xval' value ="+e.offsetX+" >,Y:  </input> <input name ='yval' value = "+e.offsetY+"  > </input> </label> ")
+
+   }
+    
+</script>
+
+</aside>
+ {% endblock %}

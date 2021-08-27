@@ -1,0 +1,38 @@
+header {
+  padding: 3%;
+  background-color: whitesmoke;
+}
+form {
+  position: absolute;
+  height: 40%;
+  width: 50%;
+  transform: translate(50%, 30%);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form label {
+  margin-top: 10%;
+  position: relative;
+  width: 100%;
+  padding: 5%;
+}
+section {
+  text-align: center;
+}
+.p-4 {
+  transform: translateY(300%);
+}
+img {
+  position: relative;
+  transform: translateX(-50%);
+  margin-left: 50%;
+  height: 700px;
+  width: 1200px;
+}
+label {
+  position: absolute;
+  top: -90px;
+}
+#buttonGo {
+  position: absolute;
+  transform: translate(-50%, 50%);
+}

@@ -1,0 +1,28 @@
+{% extends "dummy.html" %}
+{% block content %}
+<form action="/" method="GET">
+    <label> Image Found / Error Occured During Submission. </label><br>
+    <input type="submit" value="Click Here To Retry" class="file btn btn-lg btn-primary" />
+</form>
+
+<article  class="p-4 p-3 mb-2 bg-secondary text-white" >
+    This could happen if
+    <ul>
+        <li>
+            File send is not an Image
+        </li>
+        <li>
+            Image is broken
+        </li>
+        <li>
+            Image properties are not recognised by machine
+        </li>
+        <li>
+            server is down
+        </li>
+        <li>
+            if You Feel All the above is Correct,Please Re-try
+        </li>
+    </ul>
+</article>
+ {% endblock %}
